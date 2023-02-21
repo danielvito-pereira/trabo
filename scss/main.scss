@@ -1,0 +1,123 @@
+@import 'reset/variaveis.scss' , 'reset/mixins' , 'reset/reset' ,'reset/keyframes';
+
+
+.main{
+  width: 100%;
+  height:100vh;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+  background: #E5E5E5;
+  .wrapper{
+    width: 90%;
+    height: 90%;
+    max-width: 120rem;
+    max-height: 56.2388rem;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    overflow: hidden;
+    .img{
+      width: 50%;
+      height: 100%;
+      background-image: url(../src/image\ 1.png);
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+    }
+    .form{
+      width: 50%;
+      height: 100%;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      justify-content: center;
+      background-color: whitesmoke;
+      padding: 1em;
+      .container{
+        width: 60%;
+        max-width: 21.875rem;
+        display: flex;
+        flex-flow: column nowrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 20px;
+        .text{
+          display: flex;
+          flex-flow: column nowrap;
+        }
+        .forme{
+          width: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          gap: 10px;
+
+        }
+        .buttons{
+          width: 100%;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+          gap: 20px;
+          .btn{
+            width: 100%;
+            height: 50px;
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            color: white;
+            background: #04C45C;
+            border-radius: 5px;
+            gap: 20px;
+
+            .imgg{
+              width: 5%;
+            }
+          }
+          .-b{
+            background: #2D3748;
+
+          }
+        }
+      }
+    }
+  }
+}
+
+
+
+input{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+}
+.h1{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+
+  /* 900 */
+
+  color: #1A202C;
+}
+.h2{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  /* identical to box height */
+
+
+  /* 800 */
+
+  color: #2D3748;
+}
